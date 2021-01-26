@@ -1,8 +1,0 @@
-targetCustomizations:
-  - name: staging
-    namespace: test-namespace
-    helm:
-       chart: https://charts.bitnami.com/bitnami/nginx-8.2.3.tgz
-    clusterSelector:
-       matchLabels:
-          production: 'true'

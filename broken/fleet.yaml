@@ -1,0 +1,8 @@
+targetCustomizations:
+  - name: broken
+    namespace: broken-namespace
+    helm:
+       chart: ./chart
+    clusterSelector:
+       matchLabels:
+          production: 'true'
